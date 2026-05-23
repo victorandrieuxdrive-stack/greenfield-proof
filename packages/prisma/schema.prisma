@@ -12,3 +12,15 @@ model User {
   email     String   @unique
   createdAt DateTime @default(now())
 }
+
+model ChunkState {
+  id                   String   @id @default(cuid())
+  chunkId              String   @unique
+  status               String
+  terminalNonRetryable Boolean  @default(false)
+  supersededBy         String?
+  mergeSha             String?
+  reason               String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+}
