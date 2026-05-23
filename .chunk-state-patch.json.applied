@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1",
   "kind": "chunk_state_override",
-  "appliedAt": "2026-05-23T00:00:00.000Z",
-  "hotfixChunkId": "019e544d-6fed-713e-85cd-408eaad3794a",
+  "appliedAt": "2026-05-23T16:10:00.000Z",
+  "hotfixChunkId": "019e5596-4946-773e-b40b-c3b1b5c72b48",
   "overrides": [
     {
       "chunkId": "cmphwmqed000001o6ubw1qizh__items_api_test",
