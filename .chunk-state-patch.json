@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1",
+  "kind": "chunk_state_override",
+  "appliedAt": "2026-05-23T00:00:00.000Z",
+  "hotfixChunkId": "019e544d-6fed-713e-85cd-408eaad3794a",
+  "overrides": [
+    {
+      "chunkId": "cmphwmqed000001o6ubw1qizh__items_api_test",
+      "newStatus": "superseded",
+      "terminalNonRetryable": true,
+      "supersededBy": "019e53db-7d85-73e6-8249-80f1271c846c",
+      "mergeSha": "6da69a6830046b1973c11f4a9db445015ca44e2b",
+      "reason": "items_api_test work was already merged under chunk 019e53db-7d85-73e6-8249-80f1271c846c (merge SHA 6da69a6830046b1973c11f4a9db445015ca44e2b). Marking superseded to prevent replanner scheduling redundant re-execution."
+    }
+  ]
+}
