@@ -4,8 +4,9 @@
   "compilerOptions": {
     "lib": ["ES2022", "DOM"],
     "rootDir": ".",
-    "noEmit": true
+    "noEmit": true,
+    "jsx": "preserve"
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
