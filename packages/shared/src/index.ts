@@ -19,3 +19,6 @@ export type {
   TypographyScale,
   TypographyVariantKey,
 } from './design/tokens.js';
+
+export { items } from './data/items.js';
+export type { Item } from './data/items.js';

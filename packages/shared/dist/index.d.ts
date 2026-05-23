@@ -93,4 +93,21 @@ declare const typography: {
 type TypographyScale = typeof typography;
 type TypographyVariantKey = keyof TypographyScale;
 
-export { type ColorToken, type ColorValue, type SpacingToken, type SpacingValue, type TypographyScale, type TypographyVariant, type TypographyVariantKey, colors, spacing, typography };
+/**
+ * In-memory items data module.
+ *
+ * Exports a typed Item interface and a frozen read-only items array
+ * that serves as the canonical data source for API routes and tests.
+ */
+interface Item {
+    id: string;
+    name: string;
+}
+/**
+ * Sample items array.
+ * Frozen at runtime to prevent accidental mutation;
+ * typed as ReadonlyArray<Item> to surface mutations at compile time.
+ */
+declare const items: ReadonlyArray<Item>;
+
+export { type ColorToken, type ColorValue, type Item, type SpacingToken, type SpacingValue, type TypographyScale, type TypographyVariant, type TypographyVariantKey, colors, items, spacing, typography };
