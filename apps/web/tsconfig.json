@@ -5,6 +5,7 @@
     "lib": ["ES2022", "DOM"],
     "rootDir": ".",
     "noEmit": true,
+    "allowImportingTsExtensions": true,
     "jsx": "preserve"
   },
   "include": ["**/*.ts", "**/*.tsx"],
